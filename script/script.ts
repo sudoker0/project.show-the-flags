@@ -224,8 +224,11 @@ async function begin(config: GameConfiguration) {
     startTime = new Date()
 
     qSel("#config").classList.add("hidden")
-    qSel("#game").classList.remove("hidden")
     qSel("#notice_win").classList.add("hidden")
+    qSel("#notice_give_up").classList.add("hidden")
+
+    qSel("#game").classList.remove("hidden")
+    qSel("#give_up").classList.remove("hidden")
 
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     ccc_context.clearRect(0, 0, correctCountryCanvas.width, correctCountryCanvas.height)
@@ -292,6 +295,20 @@ async function guessCountry(countryCode: string) {
 
 ;
 (async () => {
+    const init = async () => {
+        const type = [...document.querySelectorAll(".game_type")].filter(v => v["checked"])[0].getAttribute("data-attribute")
+        const flagType = [...document.querySelectorAll(".flag_type")].filter(v => v["checked"]).map(v => TerritoryStatus[v.getAttribute("data-attribute")])
+        if (flagType.length <= 0) {
+            alert("Please select at least 1 flag type!")
+            return
+        }
+
+        await begin({
+            TYPE: GameType[type],
+            FLAG_TYPE: flagType
+        })
+    }
+
     document.querySelector(".game_type").setAttribute("checked", "")
     document.querySelectorAll(".flag_type").forEach(v => {
         v.setAttribute("checked", "")
@@ -311,19 +328,8 @@ async function guessCountry(countryCode: string) {
         })
     })
 
-    qSel("#letsgo").addEventListener("click", async () => {
-        const type = [...document.querySelectorAll(".game_type")].filter(v => v["checked"])[0].getAttribute("data-attribute")
-        const flagType = [...document.querySelectorAll(".flag_type")].filter(v => v["checked"]).map(v => TerritoryStatus[v.getAttribute("data-attribute")])
-        if (flagType.length <= 0) {
-            alert("Please select at least 1 flag type!")
-            return
-        }
-
-        await begin({
-            TYPE: GameType[type],
-            FLAG_TYPE: flagType
-        })
-    })
+    qSel("#letsgo").addEventListener("click", init)
+    qSel("#reset_game").addEventListener("click", init)
 
     qSel("#give_up").addEventListener("click", () => {
         clearInterval(updateInterval)
@@ -336,6 +342,4 @@ async function guessCountry(countryCode: string) {
         const correctImageData = ccc_context.getImageData(0, 0, correctCountryCanvas.width, correctCountryCanvas.height)
         ctx.putImageData(correctImageData, 0, 0)
     })
-
-    qSel("#reset_game").addEventListener("click", () => location.reload())
 })()
