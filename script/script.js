@@ -118,7 +118,7 @@ function rgb2lab(rgb) {
 }
 function drawFlag(code, canvas, ctx) {
     return __awaiter(this, void 0, void 0, function* () {
-        const image = yield loadImage(`../flags/large/${code}.png`);
+        const image = yield loadImage(`./flags/large/${code}.png`);
         const [canvasW, canvasH] = [canvas.width, canvas.height];
         const [imgW, imgH] = [image.width, image.height];
         const scale = Math.min(canvasW / imgW, canvasH / imgH);

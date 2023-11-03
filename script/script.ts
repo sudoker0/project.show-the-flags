@@ -146,7 +146,7 @@ function rgb2lab(rgb: number[]){
 }
 
 async function drawFlag(code: string, canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D) {
-    const image = await loadImage(`../flags/large/${code}.png`)
+    const image = await loadImage(`./flags/large/${code}.png`)
 
     const [canvasW, canvasH] = [canvas.width, canvas.height]
     const [imgW, imgH] = [image.width, image.height]
