@@ -1,0 +1,370 @@
+:root {
+    --bg: rgb(32, 32, 32);
+    --fg: #ffffff;
+    --dark-fg: #d0d0d0;
+    --darker-fg: #a1a1a1;
+
+    --green: #006e00;
+    --red: #d10000;
+
+    --h1-font-size: 3.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.5rem;
+    --p-font-size: 1.25rem;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("../fonts/RobotoMono-Regular.ttf");
+}
+
+@mixin box_shadow {
+    box-shadow: 8px 8px var(--darker-fg);
+}
+
+.green { background-color: var(--green) }
+.red{ background-color: var(--red) }
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Mono", 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+p {
+    font-size: var(--p-font-size);
+}
+
+body {
+    margin: 0 auto;
+    color: var(--fg);
+    background-color: var(--bg);
+    display: block;
+
+    padding: 32px;
+}
+
+canvas#flags {
+    border: 4px solid var(--fg);
+    display: block;
+    margin: 0 auto;
+
+    @include box_shadow();
+    max-width: 100%;
+}
+
+input[type=text] {
+    font-size: var(--p-font-size);
+    padding: 8px;
+    @include box_shadow();
+    border: none;
+    border-radius: 0;
+}
+
+#game {
+    .left .wrapper, .right .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    display: grid;
+    grid-template-areas: "flag input";
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+    .left {
+        grid-area: flag;
+        display: flex;
+        justify-content: end;
+
+        .wrapper {
+            width: fit-content;
+            flex: 1;
+        }
+
+        .button_wrapper {
+            padding: 0;
+        }
+    }
+
+    .right {
+        grid-area: input;
+        display: flex;
+        justify-content: start;
+
+        .wrapper {
+            max-width: 800px;
+            flex: 1;
+        }
+    }
+}
+
+#config {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+
+    img {
+        max-width: 100%;
+        border: 2px solid var(--fg);
+        @include box_shadow();
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 64px;
+}
+
+.custom_checkbox_container,
+.custom_radio_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    input {
+        display: none;
+    }
+
+    * {
+        transition: all 0.2s;
+    }
+}
+
+.custom_checkbox_container {
+    label.custom_checkbox {
+        display: block;
+        width: fit-content;
+        position: relative;
+        box-shadow: 12px 12px var(--darker-fg);
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 8px 8px var(--darker-fg);
+
+            p {
+                border: 4px solid var(--dark-fg);
+                background-color: var(--dark-fg);
+            }
+        }
+
+        p {
+            border: 4px solid var(--fg);
+            padding: 8px 12px 8px 52px;
+            background-color: var(--fg);
+            color: var(--bg);
+            margin: 0;
+        }
+
+        .custom_checkbox_display {
+            position: absolute;
+            top: 50%;
+            left: 16px;
+            height: 24px;
+            width: 24px;
+            background-color: var(--bg);
+            transform: translateY(-50%);
+        }
+
+        .custom_checkbox_display:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid var(--bg);
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    }
+
+    input:checked + label.custom_checkbox {
+        box-shadow: 4px 4px var(--darker-fg);
+        p {
+            background-color: var(--bg);
+            color: var(--fg);
+        }
+
+        .custom_checkbox_display {
+            background-color: var(--fg);
+        }
+
+        .custom_checkbox_display:after {
+            display: block;
+        }
+    }
+}
+
+.custom_radio_container {
+    label.custom_radio {
+        display: block;
+        width: fit-content;
+        box-shadow: 12px 12px var(--darker-fg);
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 8px 8px var(--darker-fg);
+
+            p {
+                border: 4px solid var(--dark-fg);
+                background-color: var(--dark-fg);
+            }
+        }
+
+        p {
+            border: 4px solid var(--fg);
+            padding: 8px 12px;
+            background-color: var(--fg);
+            color: var(--bg);
+            margin: 0;
+        }
+    }
+
+    input:checked + label.custom_radio {
+        box-shadow: 4px 4px var(--darker-fg);
+        p {
+            background-color: var(--bg);
+            color: var(--fg);
+        }
+    }
+}
+
+.button_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+
+    gap: 32px;
+}
+
+button {
+    @include box_shadow();
+    border: none;
+    padding: 12px 18px;
+    background-color: var(--fg);
+    border: 4px solid var(--fg);
+
+    &, & * {
+        transition: all 0.2s;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--bg);
+
+        p {
+            color: var(--fg);
+        }
+    }
+
+    p {
+        margin: 0;
+        color: var(--bg);
+    }
+
+    &.large {
+        p {
+            font-size: 2rem;
+        }
+    }
+}
+
+a {
+    color: var(--fg);
+}
+
+div#country_list {
+    @include box_shadow();
+    border: 4px solid var(--fg);
+    padding: 16px;
+    height: 400px;
+    overflow: auto;
+
+    p {
+        margin: 0;
+    }
+
+    .country_item {
+        display: grid;
+        gap: 16px;
+        grid-template-areas: "icon text";
+        grid-template-columns: 60px auto;
+        align-items: center;
+        padding: 16px;
+        background-color: var(--bg);
+        transition: all 0.2s;
+        user-select: none;
+
+        &:hover, &:focus {
+            cursor: pointer;
+            background-color: var(--fg);
+            color: var(--bg);
+        }
+
+        &:active {
+            background-color: var(--darker-fg);
+        }
+
+        img {
+            grid-area: icon;
+            height: 24px;
+            width: auto;
+        }
+
+        p {
+            grid-area: text;
+        }
+    }
+
+    hr {
+        border: 1px solid var(--darker-fg);
+    }
+}
+
+.footer {
+    padding: 16px 0;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --h1-font-size: 2.5rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem;
+        --p-font-size: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #game {
+        grid-template-areas: "flag" "input";
+        grid-template-columns: 1fr;
+
+        .left, .right {
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Show The Flags!
+        link(rel="stylesheet", href="./style/style.css")
+        script(src="./script/script.js" defer)
+    body
+        mixin custom_radio(class_name, display_name, value)
+            input(id=class_name+"_"+value, name=class_name, class=class_name, type="radio", data-attribute=value)
+            label.custom_radio(for=class_name+"_"+value)
+                p= display_name
+
+        mixin custom_checkbox(class_name, display_name, value)
+            input(id=class_name+"_"+value, name=class_name, class=class_name, type="checkbox", data-attribute=value)
+            label.custom_checkbox(for=class_name+"_"+value)
+                span.custom_checkbox_display
+                p= display_name
+
+        h1 Show The Flags!
+        #config
+            h2 How to Play?
+            p A random flag of a country/territory will be selected, and your goal is to figure out what is the mystery flag in the least amount of guesses/time as possible.
+            p Each incorrect guesses will show some clues about the correct flag, more specifically, sections of both the correct flag and the guessed flag that have the same color.
+            p For example: In the image below, the player have guessed "China", and while it isn't the correct answer, it has shown the clues to the correct flag (which is Greenland)
+            img(src="img/example.png", alt="Examples")
+            p And that's all, have fun!
+            h2 Settings
+            #game_config
+                h3 Type
+                .custom_radio_container
+                    +custom_radio("game_type", "Default", "DEFAULT")
+                    //- +custom_radio("game_type", "Partial", "PARTIAL")
+                    //- +custom_radio("game_type", "Random Partial", "RANDOM_PARTIAL")
+                #type_info_display
+                    p.type_info(data-type="DEFAULT") Default: The whole section of the correct flag will be checked with the guessed flag.
+                    //- p.type_info(data-type="PARTIAL") Partial: Only 1/4 of the correct flag will be checked with the random flag, with each incorrect guess changing the checked region.
+                    //- p.type_info(data-type="RANDOM_PARTIAL") Random partial: A random region of the correct flag will be checked, with each incorrect guess changing the position of the checked region.
+                h3 Flag type (multiple choice)
+                p (Disputed/Special Territory/Countries include: Kosovo, Western Sahara, Taiwan and Antarctica)
+                p (Sources from Wikipedia, last updated: Nov 2023)
+                .custom_checkbox_container
+                    +custom_checkbox("flag_type", "UN Member State (195 countries)", "UN_MEMBER_STATE")
+                    +custom_checkbox("flag_type", "Country's Territory", "COUNTRY_TERRITORY")
+                    +custom_checkbox("flag_type", "Disputed/Special Territory/Countries", "RANDOM_PARTIAL")
+                .button_wrapper
+                    button#letsgo.large
+                        p Let's Go!
+        #game.hidden
+            .left
+                .wrapper
+                    canvas#flags(width="800", height="534")
+                    .flex_container#display_info
+                        p Time Elapsed: $_time seconds
+                        p Tries: $_tries
+                        #notice_give_up.hidden
+                            p The mystery country/territory was $_countries
+                        #notice_win.hidden
+                            p Congrat! The mystery country/territory was $_countries
+                    .button_wrapper
+                        button#give_up
+                            p Give Up
+                        button#reset_game
+                            p Reset Game
+            .right
+                .wrapper
+                    input#country_finder(type="text", name="country_finder" placeholder="search country...")
+                    #country_list
+        .footer
+            p Copyright (C) 2023 sudoker0, licensed under the MIT license.
+            p Source code: #[a(href="https://github.com/sudoker0/project.show-the-flags" target="_blank") https://github.com/sudoker0/project.show-the-flags]
+            p Flag images from #[a(href="https://flagpedia.net/") https://flagpedia.net/]
+            p Country/Territory information from #[a(href="https://www.iso.org/obp/ui/#search") https://www.iso.org/obp/ui/#search]

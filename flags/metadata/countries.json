@@ -1,0 +1,1252 @@
+[
+  {
+    "NAME": "Afghanistan",
+    "CODE": "af",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Albania",
+    "CODE": "al",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Algeria",
+    "CODE": "dz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "American Samoa",
+    "CODE": "as",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Andorra",
+    "CODE": "ad",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Angola",
+    "CODE": "ao",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Anguilla",
+    "CODE": "ai",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Antarctica",
+    "CODE": "aq",
+    "STATUS": "SPECIAL"
+  },
+  {
+    "NAME": "Antigua and Barbuda",
+    "CODE": "ag",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Argentina",
+    "CODE": "ar",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Armenia",
+    "CODE": "am",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Aruba",
+    "CODE": "aw",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Australia",
+    "CODE": "au",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Austria",
+    "CODE": "at",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Azerbaijan",
+    "CODE": "az",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Bahamas",
+    "CODE": "bs",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bahrain",
+    "CODE": "bh",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bangladesh",
+    "CODE": "bd",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Barbados",
+    "CODE": "bb",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Belarus",
+    "CODE": "by",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Belgium",
+    "CODE": "be",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Belize",
+    "CODE": "bz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Benin",
+    "CODE": "bj",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bermuda",
+    "CODE": "bm",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Bhutan",
+    "CODE": "bt",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bolivia",
+    "CODE": "bo",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bonaire, Sint Eustatius and Saba",
+    "CODE": "bq",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Bosnia and Herzegovina",
+    "CODE": "ba",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Botswana",
+    "CODE": "bw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bouvet Island",
+    "CODE": "bv",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Brazil",
+    "CODE": "br",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The British Indian Ocean Territory",
+    "CODE": "io",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Brunei Darussalam",
+    "CODE": "bn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Bulgaria",
+    "CODE": "bg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Burkina Faso",
+    "CODE": "bf",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Burundi",
+    "CODE": "bi",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Cabo Verde",
+    "CODE": "cv",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Cambodia",
+    "CODE": "kh",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Cameroon",
+    "CODE": "cm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Canada",
+    "CODE": "ca",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Cayman Islands",
+    "CODE": "ky",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "The Central African Republic",
+    "CODE": "cf",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Chad",
+    "CODE": "td",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Chile",
+    "CODE": "cl",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "China",
+    "CODE": "cn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Christmas Island",
+    "CODE": "cx",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "The Cocos (Keeling) Islands",
+    "CODE": "cc",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Colombia",
+    "CODE": "co",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Comoros",
+    "CODE": "km",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Democratic Republic of the Congo",
+    "CODE": "cd",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Republic of the Congo",
+    "CODE": "cg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Cook Islands",
+    "CODE": "ck",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Costa Rica",
+    "CODE": "cr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Croatia",
+    "CODE": "hr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Cuba",
+    "CODE": "cu",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Curaçao",
+    "CODE": "cw",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Cyprus",
+    "CODE": "cy",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Czechia",
+    "CODE": "cz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Côte d'Ivoire",
+    "CODE": "ci",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Denmark",
+    "CODE": "dk",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Djibouti",
+    "CODE": "dj",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Dominica",
+    "CODE": "dm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Dominican Republic",
+    "CODE": "do",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Ecuador",
+    "CODE": "ec",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Egypt",
+    "CODE": "eg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "El Salvador",
+    "CODE": "sv",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Equatorial Guinea",
+    "CODE": "gq",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Eritrea",
+    "CODE": "er",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Estonia",
+    "CODE": "ee",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Eswatini",
+    "CODE": "sz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Ethiopia",
+    "CODE": "et",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Falkland Islands [Malvinas]",
+    "CODE": "fk",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "The Faroe Islands",
+    "CODE": "fo",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Fiji",
+    "CODE": "fj",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Finland",
+    "CODE": "fi",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "France",
+    "CODE": "fr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "French Guiana",
+    "CODE": "gf",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "French Polynesia",
+    "CODE": "pf",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "The French Southern Territories",
+    "CODE": "tf",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Gabon",
+    "CODE": "ga",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Gambia",
+    "CODE": "gm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Georgia",
+    "CODE": "ge",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Germany",
+    "CODE": "de",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Ghana",
+    "CODE": "gh",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Gibraltar",
+    "CODE": "gi",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Greece",
+    "CODE": "gr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Greenland",
+    "CODE": "gl",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Grenada",
+    "CODE": "gd",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Guadeloupe",
+    "CODE": "gp",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Guam",
+    "CODE": "gu",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Guatemala",
+    "CODE": "gt",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Guernsey",
+    "CODE": "gg",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Guinea",
+    "CODE": "gn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Guinea-Bissau",
+    "CODE": "gw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Guyana",
+    "CODE": "gy",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Haiti",
+    "CODE": "ht",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Heard Island and McDonald Islands",
+    "CODE": "hm",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "The Holy See [Vatican City]",
+    "CODE": "va",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Honduras",
+    "CODE": "hn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Hong Kong",
+    "CODE": "hk",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Hungary",
+    "CODE": "hu",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Iceland",
+    "CODE": "is",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "India",
+    "CODE": "in",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Indonesia",
+    "CODE": "id",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Islamic Republic of Iran",
+    "CODE": "ir",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Iraq",
+    "CODE": "iq",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Ireland",
+    "CODE": "ie",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Isle of Man",
+    "CODE": "im",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Israel",
+    "CODE": "il",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Italy",
+    "CODE": "it",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Jamaica",
+    "CODE": "jm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Japan",
+    "CODE": "jp",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Jersey",
+    "CODE": "je",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Jordan",
+    "CODE": "jo",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Kazakhstan",
+    "CODE": "kz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Kenya",
+    "CODE": "ke",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Kiribati",
+    "CODE": "ki",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Democratic People's Republic of Korea [North Korea]",
+    "CODE": "kp",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Republic of Korea [South Korea]",
+    "CODE": "kr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Kuwait",
+    "CODE": "kw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Kyrgyzstan",
+    "CODE": "kg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Lao People's Democratic Republic",
+    "CODE": "la",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Latvia",
+    "CODE": "lv",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Lebanon",
+    "CODE": "lb",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Lesotho",
+    "CODE": "ls",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Liberia",
+    "CODE": "lr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Libya",
+    "CODE": "ly",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Liechtenstein",
+    "CODE": "li",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Lithuania",
+    "CODE": "lt",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Luxembourg",
+    "CODE": "lu",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Macao",
+    "CODE": "mo",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Madagascar",
+    "CODE": "mg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Malawi",
+    "CODE": "mw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Malaysia",
+    "CODE": "my",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Maldives",
+    "CODE": "mv",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Mali",
+    "CODE": "ml",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Malta",
+    "CODE": "mt",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Marshall Islands",
+    "CODE": "mh",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Martinique",
+    "CODE": "mq",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Mauritania",
+    "CODE": "mr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Mauritius",
+    "CODE": "mu",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Mayotte",
+    "CODE": "yt",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Mexico",
+    "CODE": "mx",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Federated States of Micronesia",
+    "CODE": "fm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Moldova",
+    "CODE": "md",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Monaco",
+    "CODE": "mc",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Mongolia",
+    "CODE": "mn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Montenegro",
+    "CODE": "me",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Montserrat",
+    "CODE": "ms",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Morocco",
+    "CODE": "ma",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Mozambique",
+    "CODE": "mz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Myanmar",
+    "CODE": "mm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Namibia",
+    "CODE": "na",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Nauru",
+    "CODE": "nr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Nepal",
+    "CODE": "np",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Netherlands",
+    "CODE": "nl",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "New Caledonia",
+    "CODE": "nc",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "New Zealand",
+    "CODE": "nz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Nicaragua",
+    "CODE": "ni",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Niger",
+    "CODE": "ne",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Nigeria",
+    "CODE": "ng",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Niue",
+    "CODE": "nu",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Norfolk Island",
+    "CODE": "nf",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "North Macedonia",
+    "CODE": "mk",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Northern Mariana Islands",
+    "CODE": "mp",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Norway",
+    "CODE": "no",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Oman",
+    "CODE": "om",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Pakistan",
+    "CODE": "pk",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Palau",
+    "CODE": "pw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "State of Palestine",
+    "CODE": "ps",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Panama",
+    "CODE": "pa",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Papua New Guinea",
+    "CODE": "pg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Paraguay",
+    "CODE": "py",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Peru",
+    "CODE": "pe",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Philippines",
+    "CODE": "ph",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Pitcairn",
+    "CODE": "pn",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Poland",
+    "CODE": "pl",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Portugal",
+    "CODE": "pt",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Puerto Rico",
+    "CODE": "pr",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Qatar",
+    "CODE": "qa",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Romania",
+    "CODE": "ro",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Russian Federation",
+    "CODE": "ru",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Rwanda",
+    "CODE": "rw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Réunion",
+    "CODE": "re",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Saint Barthélemy",
+    "CODE": "bl",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Saint Helena, Ascension and Tristan da Cunha",
+    "CODE": "sh",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Saint Kitts and Nevis",
+    "CODE": "kn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Saint Lucia",
+    "CODE": "lc",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Saint Martin (French part)",
+    "CODE": "mf",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Saint Pierre and Miquelon",
+    "CODE": "pm",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Saint Vincent and the Grenadines",
+    "CODE": "vc",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Samoa",
+    "CODE": "ws",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "San Marino",
+    "CODE": "sm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Sao Tome and Principe",
+    "CODE": "st",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Saudi Arabia",
+    "CODE": "sa",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Senegal",
+    "CODE": "sn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Serbia",
+    "CODE": "rs",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Seychelles",
+    "CODE": "sc",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Sierra Leone",
+    "CODE": "sl",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Singapore",
+    "CODE": "sg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Sint Maarten (Dutch part)",
+    "CODE": "sx",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Slovakia",
+    "CODE": "sk",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Slovenia",
+    "CODE": "si",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Solomon Islands",
+    "CODE": "sb",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Somalia",
+    "CODE": "so",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "South Africa",
+    "CODE": "za",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "South Georgia and the South Sandwich Islands",
+    "CODE": "gs",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "South Sudan",
+    "CODE": "ss",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Spain",
+    "CODE": "es",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Sri Lanka",
+    "CODE": "lk",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Sudan",
+    "CODE": "sd",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Suriname",
+    "CODE": "sr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Svalbard and Jan Mayen",
+    "CODE": "sj",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Sweden",
+    "CODE": "se",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Switzerland",
+    "CODE": "ch",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Syria",
+    "CODE": "sy",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Taiwan",
+    "CODE": "tw",
+    "STATUS": "SPECIAL"
+  },
+  {
+    "NAME": "Tajikistan",
+    "CODE": "tj",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Tanzania",
+    "CODE": "tz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Thailand",
+    "CODE": "th",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Timor-Leste",
+    "CODE": "tl",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Togo",
+    "CODE": "tg",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Tokelau",
+    "CODE": "tk",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Tonga",
+    "CODE": "to",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Trinidad and Tobago",
+    "CODE": "tt",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Tunisia",
+    "CODE": "tn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Turkmenistan",
+    "CODE": "tm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The Turks and Caicos Islands",
+    "CODE": "tc",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Tuvalu",
+    "CODE": "tv",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Turkey",
+    "CODE": "tr",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Uganda",
+    "CODE": "ug",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Ukraine",
+    "CODE": "ua",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The United Arab Emirates [The UAE]",
+    "CODE": "ae",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The United Kingdom of Great Britain and Northern Ireland [The UK]",
+    "CODE": "gb",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "The United States Minor Outlying Islands",
+    "CODE": "um",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "The United States of America [The USA]",
+    "CODE": "us",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Uruguay",
+    "CODE": "uy",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Uzbekistan",
+    "CODE": "uz",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Vanuatu",
+    "CODE": "vu",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Venezuela",
+    "CODE": "ve",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Viet Nam",
+    "CODE": "vn",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Virgin Islands (British)",
+    "CODE": "vg",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Virgin Islands (U.S.)",
+    "CODE": "vi",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Wallis and Futuna",
+    "CODE": "wf",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Western Sahara",
+    "CODE": "eh",
+    "STATUS": "SPECIAL"
+  },
+  {
+    "NAME": "Yemen",
+    "CODE": "ye",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Zambia",
+    "CODE": "zm",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Zimbabwe",
+    "CODE": "zw",
+    "STATUS": "UN_MEMBER_STATE"
+  },
+  {
+    "NAME": "Åland Islands",
+    "CODE": "ax",
+    "STATUS": "COUNTRY_TERRITORY"
+  },
+  {
+    "NAME": "Kosovo",
+    "CODE": "xk",
+    "STATUS": "SPECIAL"
+  }
+]
