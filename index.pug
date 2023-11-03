@@ -51,7 +51,10 @@ html(lang="en")
         #game.hidden
             .left
                 .wrapper
-                    canvas#flags(width="800", height="534")
+                    .canvas_wrapper
+                        .notice#flag_checking.hidden
+                            p Please wait while we're checking the flag...
+                        canvas#flags(width="800", height="534")
                     .flex_container#display_info
                         p Time Elapsed: $_time seconds
                         p Tries: $_tries
@@ -68,6 +71,7 @@ html(lang="en")
                 .wrapper
                     input#country_finder(type="text", name="country_finder" placeholder="search country...")
                     #country_list
+                    p Click on the countries to make a guess.
         .footer
             p Copyright (C) 2023 sudoker0, licensed under the MIT license.
             p Source code: #[a(href="https://github.com/sudoker0/project.show-the-flags" target="_blank") https://github.com/sudoker0/project.show-the-flags]

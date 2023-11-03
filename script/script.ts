@@ -230,6 +230,8 @@ async function begin(config: GameConfiguration) {
     qSel("#game").classList.remove("hidden")
     qSel("#give_up").classList.remove("hidden")
 
+    qSel<HTMLInputElement>("#country_finder").value = ""
+
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     ccc_context.clearRect(0, 0, correctCountryCanvas.width, correctCountryCanvas.height)
 
@@ -268,6 +270,7 @@ async function begin(config: GameConfiguration) {
 }
 
 async function guessCountry(countryCode: string) {
+    qSel("#flag_checking").classList.remove("hidden")
     const previousData = ctx.getImageData(0, 0, canvas.width, canvas.height)
     await drawFlag(countryCode, canvas, ctx)
 
@@ -287,10 +290,11 @@ async function guessCountry(countryCode: string) {
             "countries": correctCountryName
         })
         qSel("#give_up").classList.add("hidden")
-        return
+    } else {
+        tries++
     }
 
-    tries++
+    qSel("#flag_checking").classList.add("hidden")
 }
 
 ;

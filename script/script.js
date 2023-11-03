@@ -188,6 +188,7 @@ function begin(config) {
         qSel("#notice_give_up").classList.add("hidden");
         qSel("#game").classList.remove("hidden");
         qSel("#give_up").classList.remove("hidden");
+        qSel("#country_finder").value = "";
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ccc_context.clearRect(0, 0, correctCountryCanvas.width, correctCountryCanvas.height);
         var countries = yield loadCountries();
@@ -221,6 +222,7 @@ function begin(config) {
 }
 function guessCountry(countryCode) {
     return __awaiter(this, void 0, void 0, function* () {
+        qSel("#flag_checking").classList.remove("hidden");
         const previousData = ctx.getImageData(0, 0, canvas.width, canvas.height);
         yield drawFlag(countryCode, canvas, ctx);
         const a = ccc_context.getImageData(0, 0, correctCountryCanvas.width, correctCountryCanvas.height);
@@ -236,9 +238,11 @@ function guessCountry(countryCode) {
                 "countries": correctCountryName
             });
             qSel("#give_up").classList.add("hidden");
-            return;
         }
-        tries++;
+        else {
+            tries++;
+        }
+        qSel("#flag_checking").classList.add("hidden");
     });
 }
 ;
